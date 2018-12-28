@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:paddingLeft="@dimen/qb_px_14"
+    android:layout_height="@dimen/qb_px_44">
+
+    <ImageView
+        android:id="@+id/ivSmallPoint"
+        android:layout_centerVertical="true"
+        android:layout_width="@dimen/qb_px_8"
+        android:layout_height="@dimen/qb_px_8"
+        android:src="@drawable/small_point"
+        android:layout_marginRight="@dimen/qb_px_10"
+        />
+
+    <TextView
+        android:id="@+id/tvTextContent"
+        android:layout_toRightOf="@+id/ivSmallPoint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:textSize="@dimen/qb_px_12"
+        android:textColor="@color/txt_color"
+        android:text="这是文本内容。。。。"/>
+
+    <TextView
+        android:id="@+id/tvTextTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:textColor="@color/txt_color"
+        android:layout_alignParentRight="true"
+        android:textSize="@dimen/qb_px_12"
+        android:layout_marginRight="@dimen/qb_px_28"
+        android:text="昨天"/>
+</RelativeLayout>
