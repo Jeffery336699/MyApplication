@@ -8,4 +8,8 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="popup_more_anim" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/reply_window_enter_new</item>
+        <item name="android:windowExitAnimation">@anim/reply_window_exit_new</item>
+    </style>
 </resources>
